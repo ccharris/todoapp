@@ -25,7 +25,7 @@ run `npm run dev` in your terminal
 ## How To Run Tests with Cypress
 1. ensure the app is running (see above)
 2. run `npm run cypress:open` in your terminal
-3. navigate to the "tests" folder and run the todoapp.spec.js file
+3. navigate to the "tests" folder and run the `todoapp.spec.js` file
 
 
 
