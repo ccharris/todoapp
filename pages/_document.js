@@ -21,6 +21,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
+          <link rel='shortcut icon' type='image/x-icon' href='/static/assets/favicon.ico' />
         </Head>
         <body>
           <Main />
