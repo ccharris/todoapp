@@ -33,9 +33,11 @@ class ToDoIndex extends Component {
       console.log("error", e);
     }
   }
+
   setLocalStorage = list => {
     localStorage.setItem("list", JSON.stringify(list));
   };
+
   submitItem = e => {
     e.preventDefault();
     let list = this.state.itemList;
@@ -80,7 +82,6 @@ class ToDoIndex extends Component {
 
   deleteAllChecked = () => {
     let newItems = this.state.itemList.filter(todo => todo.checked === false);
-    console.log(newItems);
     this.setState({ itemList: newItems, filteredItems: newItems });
     this.setLocalStorage(newItems);
   };
